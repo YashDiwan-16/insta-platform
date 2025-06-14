@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ThemeSwitcher } from "../theme-switcher";
 import { ArrowRight, Twitter, Instagram, MessageCircle } from "lucide-react";
 
 const Hero = () => {
@@ -16,11 +15,6 @@ const Hero = () => {
       {/* Content */}
       <div className="container relative z-10 px-4 mx-auto">
         <div className="flex flex-col items-center text-center space-y-8">
-          {/* Theme Switcher */}
-          <div className="absolute top-4 right-4">
-            <ThemeSwitcher />
-          </div>
-
           {/* Main Content */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
